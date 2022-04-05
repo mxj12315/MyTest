@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+        <!--定义6个textView先定义的位于最下层-->
+        <TextView
+            android:id="@+id/v01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:width="320dp"
+            android:height="320dp"
+            android:background="@color/红色" />
+
+        <TextView
+            android:id="@+id/v02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:width="280dp"
+            android:height="280dp"
+            android:background="@color/绿色" />
+
+        <TextView
+            android:id="@+id/v03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:width="240dp"
+            android:height="240dp"
+            android:background="@color/蓝色" />
+
+        <TextView
+            android:id="@+id/v04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:width="200dp"
+            android:height="200dp"
+            android:background="@color/黄色" />
+
+        <TextView
+            android:id="@+id/v05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:width="160dp"
+            android:height="160dp"
+            android:background="@color/粉色" />
+
+        <TextView
+            android:id="@+id/v06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:width="120dp"
+            android:height="120dp"
+            android:background="@color/浅蓝" />
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

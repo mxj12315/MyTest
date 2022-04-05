@@ -1,0 +1,39 @@
+// 顶级构建文件，您可以在其中添加所有子项目/模块通用的配置选项。
+
+buildscript {
+
+    // 仓库
+    repositories {
+        // maven 中央仓库
+          mavenCentral()
+
+        // 指定URL地址
+
+     /*   maven {
+            allowInsecureProtocol = true
+            url "http://repo2.maven.org/maven2/"
+        }
+*/
+        maven { url 'https://www.jitpack.io' }
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.0'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--设置字体为20pt 在文本结束后绘制图片-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@mipmap/ic_launcher"
+        android:text="Java"
+        android:textSize="20pt" />
+    <!--设置中间省略，所有字母大写-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="python stady python stady python stady"
+        android:textAllCaps="true" />
+    <!--添加邮件和电话连接-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email|phone"
+        android:text="我的电子邮件是 mxj12315@qq.com 电话是14787894093"
+
+        />
+
+    <!--设置文字 颜色 大小 阴影-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="#00f"
+        android:shadowDx="10.0"
+        android:shadowDy="8.0"
+        android:shadowRadius="3.0"
+        android:text="测试文字"
+        android:textColor="#f00"
+        android:textSize="18pt" />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="@mipmap/ic_launcher"
+        android:text="可以勾选的文字" />
+    <!--指定背景-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border"
+        android:text="有边框的文字"
+        android:textColor="#ff0"
+        android:textSize="24pt" />
+
+    <!--指定背景渐变-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border2"
+        android:text="圆角边框，渐变色"
+        android:textSize="24pt" />
+
+</LinearLayout>

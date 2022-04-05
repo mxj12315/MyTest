@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">User From</string>
+    <string name="serial">序列</string>
+    <string name="name">姓名</string>
+    <string name="customerPhone">电话</string>
+    <string name="customerSex">性别</string>
+    <string name="csStatus">状态</string>
+    <string name="label">考虑类型</string>
+    <string name="proAddress">居住地</string>
+    <string name="projectName">项目</string>
+    <string name="csUpdateTime">来源</string>
+    <string name="tradeprotectTime">过保护期</string>
+    <string name="protectendTime">购房目的</string>
+    <string name="assignUserName">销控</string>
+    <string name="adviserName">置业顾问</string>
+</resources>

@@ -1,0 +1,1 @@
+include ':app', ':absolutelayout', ':constraintlayout', ':mytextview', ':buttontest', ':checkbuttontest', ':togglebutton', ':tools', ':analogcclockandtextclock', ':imageview', ':zoombutton'

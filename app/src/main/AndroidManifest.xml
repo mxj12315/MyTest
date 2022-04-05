@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--指定安卓应用的包名，是该应用的唯一标识符-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mytest">
+    <!--指定安卓应用的图标、标签、圆图标和主题-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <!--定义安卓Activity组件，该Activity的类名为 MainActivity-->
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <!--定义Activity类的主入口-->
+                <action android:name="android.intent.action.MAIN" />
+                <!--指定加载该应用时运行该Activity-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <!--权限设置-->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

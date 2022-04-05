@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyTest</string>
+    <string name="button">Button</string>
+    <string name="button1">增加</string>
+    <string name="button2">删除</string>
+    <string name="button3">更新</string>
+    <string name="button4">删除</string>
+</resources>
